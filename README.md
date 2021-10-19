@@ -5,7 +5,7 @@
 
 ### Steps to update
 1. Infrastructure -> capsule add org and location this makes cotent source
-2. hosts -> operating systems
+2. done - hosts -> operating systems
 3. Create Host Group
 4. Create compute profile - see instrutions below
 5. Administer -> Settings -> Destroyed associated VM on host delete -> change to yes
