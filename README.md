@@ -1,6 +1,8 @@
 # Part 6: TBN
 
+### Satellite as a cotent host
 
+### Host Group
 
 ### Integrating the VMWare Resources with Satellite. 
 
