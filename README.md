@@ -1,5 +1,8 @@
 # Part 6: TBN
 
+
+[Tutorial Menu](https://github.com/pslucas0212/RedHat-Satellite-VM-Provisioning-to-vSphere-Tutorial)  
+
 ### Steps to update
 1. Infrastructure -> capsule add org and location this makes cotent source
 2. hosts -> operating systems
