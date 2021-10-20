@@ -54,13 +54,13 @@ We will now define a host group within Satellite defines... ???
 
 On the left navigation bar chose Configure -> Host Groups.  
 
-![Configure -> Host Groups](/images/sat.png)
+![Configure -> Host Groups](/images/sat56.png)
 
 On the Host Groups page make sure that you have Operations Department and moline selected for Organization and Location.  Click blue Create Host Group button.
 
-![Clck the Create Host Group button](/images/sat.png)
+![Clck the Create Host Group button](/images/sat57.png)
 
-On the Host Groups > Create Host Group page, we will start filling in the options on the Host Group Tab
+On the Host Groups > Create Host Group page, we will start filling in or selectiong the options on the Host Group Tab
 
 Host Group Tab:
 Name | Value
@@ -68,8 +68,13 @@ Name | Value
 Name | hg-rhel8-prem-server
 Lifecycle Environment | le-ops-rhel8-prem-server
 Content View | cv-rhel8-prem-server
+Content Source | sat01.example.com
 Deploy On | cr-vcenter
 Compute Profile | cp-vmware-small
+
+![Host Group Tab](/images/sat58.png)  
+
+Now click on the Network tab.  Fill in or selection the follow optons.  
 
 Networkt Tab:
 Name | Value
@@ -77,28 +82,23 @@ Name | Value
 Domain | example.com
 IPv4 Subnet | cn-operations-department
 
+![Network Tab](/images/sat59.png)  
+
+Now click on the Operating System tab.  Fill in or selection the follow optons. 
+
 Operating System Tab:
 Name | Value
 ---- | -----
 Architecture | x86_64
 Operating System | RedHt 8.3
-Password | Passw0rd!
 
-Check the Locations and Organziations tab to make sure that moline is set for Locations and Operations Department is set for Organizations.  
+![Operating System Tab](/images/sat59.png)  
 
-Set the activation key to ak-ops-rhel8-prem-server
+Check the Locations and Organziations tab to make sure that moline is set for Locations and Operations Department is set for Organizations.
 
+Now click on the Activation Key tab.  Fill in ak-ops-rhel8--prem-server in the Activation Keys text field.   Click the blue Submit button.
 
-```
-# hammer hostgroup create \
---name hg-rhel8-prem-server \
---operatingsystem "Red Hat 8.3" \
---subnet sn-operations-department \
---domain example.com \
---architecture x86_64 \
---compute-profile cp-vmware-small \
-
-```
+![Activation Key tab](/images/sat60.png)
 
 ## References  
 [Installing Satellite Server from a Connected Network](https://access.redhat.com/documentation/en-us/red_hat_satellite/6.9/html/installing_satellite_server_from_a_connected_network/index)   
