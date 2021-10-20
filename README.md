@@ -8,7 +8,7 @@
 2. ***Done*** - hosts -> operating systems
 3. ***Done*** Create Host Group
 4. ***Done*** Create compute profile - see instrutions below
-5. Administer -> Settings -> Destroyed associated VM on host delete -> change to yes
+5. ***Done***  Administer -> Settings -> Destroyed associated VM on host delete -> change to yes
 6. Example deployment
 
 ### Integrating the VMWare Resources with Satellite. 
@@ -104,9 +104,13 @@ Once last option udpate and we are ready to test our deployment.  When I de-prov
 
 ![Administer -> Settings)(images/sat61.png)
 
-On the Settings page in the Filter/Search text field, enter "Destroy associated VM on host delete" and click the Search button.  The result will show the Destroy associated VM on host delete option.  Clikc on the pencil (edit) icon and chose Yes.  The setting will now be updated.
+On the Settings page in the Filter/Search text field, enter "Destroy associated VM on host delete" and click the Search button.  The result will show the Destroy associated VM on host delete option.  Click on the pencil (edit) icon. 
 
-![Settings - Destroy associated VM on host delete - Yes](/images/sat62.png)
+![Settings - Destroy associated VM on host delete - Yes](/images/sat62.png)  
+
+A dialog box will pop up with the title Update value for Destroy associated VM on host delete setting.  Click the drop down and chose Yes, and click the blue Submit button to accept the changed value.  The setting is now updated.
+
+![Dialog box - click Yes](/images/sat64.png)
 
 ## References  
 [Installing Satellite Server from a Connected Network](https://access.redhat.com/documentation/en-us/red_hat_satellite/6.9/html/installing_satellite_server_from_a_connected_network/index)   
