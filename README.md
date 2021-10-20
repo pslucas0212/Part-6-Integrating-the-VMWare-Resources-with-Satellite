@@ -110,7 +110,7 @@ On the Settings page in the Filter/Search text field, enter "Destroy associated 
 
 A dialog box will pop up with the title Update value for Destroy associated VM on host delete setting.  Click the drop down and chose Yes, and click the blue Submit button to accept the changed value.  The setting is now updated.
 
-![Dialog box - click Yes](/images/sat64.png)
+![Dialog box - click Yes](/images/sat62.png)
 
 ## References  
 [Installing Satellite Server from a Connected Network](https://access.redhat.com/documentation/en-us/red_hat_satellite/6.9/html/installing_satellite_server_from_a_connected_network/index)   
