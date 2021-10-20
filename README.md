@@ -13,6 +13,7 @@
 
 ### Integrating the VMWare Resources with Satellite. 
 
+
 We are going pre-define hardware settings for a virtual machine in Satellite by creating a compute profile.  On the Satellite Console chose Infrastructure -> Compute Profiles.
 
 ![Infrastructure -> Compute Profiles](/images/sat44.png)
@@ -47,9 +48,19 @@ Network | VM Network
 The next two screen shots show what your configuration should look like.  Click the blue Submit button when you have finished with the configuration.  You will be returned to the  Compute Profiles > cp-vmware-small page.  
 
 ![cr-vmware-small config](/images/sat48.png)
-![cr-vmware-small config continued](/images/sat49.png)
+![cr-vmware-small config continued](/images/sat48a.png)
 
-We finish up this session by creating a hosgroup. 
+We will now define a host group within Satellite defines... ???
+
+On the left navigation bar chose Configure -> Host Groups.  
+
+![Configure -> Host Groups](/images/sat.png)
+
+On the Host Groups page make sure that you have Operations Department and moline selected for Organization and Location.  Click blue Create Host Group button.
+
+![Clck the Create Host Group button](/images/sat.png)
+
+On the Host Groups > Create Host Group page, we will start filling in the options on the Host Group Tab
 
 Host Group Tab:
 Name | Value
