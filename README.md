@@ -3,14 +3,6 @@
 
 [Tutorial Menu](https://github.com/pslucas0212/RedHat-Satellite-VM-Provisioning-to-vSphere-Tutorial)  
 
-### Steps to update
-1. ***Done*** Infrastructure -> capsule add org and location this makes cotent source
-2. ***Done*** - hosts -> operating systems
-3. ***Done*** Create Host Group
-4. ***Done*** Create compute profile - see instrutions below
-5. ***Done***  Administer -> Settings -> Destroyed associated VM on host delete -> change to yes
-6. Example deployment
-
 ### Integrating the VMWare Resources with Satellite. 
 
 
