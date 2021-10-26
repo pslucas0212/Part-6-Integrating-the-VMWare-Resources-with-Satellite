@@ -94,7 +94,7 @@ Now click on the Activation Key tab.  Fill in ak-ops-rhel8--prem-server in the A
 
 Once last option udpate and we are ready to test our deployment.  When I de-provision a VM running on vSphere from Satellite, I want the VM deleted.  To enable this capability Administer -> Settings from the navigation bar on the left.
 
-![Administer -> Settings)(images/sat61.png)
+![Administer -> Settings](images/sat61.png)
 
 On the Settings page in the Filter/Search text field, enter "Destroy associated VM on host delete" and click the Search button.  The result will show the Destroy associated VM on host delete option.  Click on the pencil (edit) icon. 
 
@@ -102,7 +102,7 @@ On the Settings page in the Filter/Search text field, enter "Destroy associated 
 
 A dialog box will pop up with the title Update value for Destroy associated VM on host delete setting.  Click the drop down and chose Yes, and click the blue Submit button to accept the changed value.  The setting is now updated.
 
-![Dialog box - click Yes](/images/sat62.png)
+![Dialog box - click Yes](/images/sat63.png)
 
 ## References  
 [Installing Satellite Server from a Connected Network](https://access.redhat.com/documentation/en-us/red_hat_satellite/6.9/html/installing_satellite_server_from_a_connected_network/index)   
