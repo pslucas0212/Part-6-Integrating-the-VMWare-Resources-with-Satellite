@@ -1,4 +1,4 @@
-# Part 6: Integrating the VMWare Resources with Satellite
+# Part 8: Integrating the VMWare Resources with Satellite
 
 
 [Tutorial Menu](https://github.com/pslucas0212/RedHat-Satellite-VM-Provisioning-to-vSphere-Tutorial)  
