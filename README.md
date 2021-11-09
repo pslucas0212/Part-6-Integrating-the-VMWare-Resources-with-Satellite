@@ -42,7 +42,7 @@ The next two screen shots show what your configuration should look like.  Click 
 ![cr-vmware-small config](/images/sat48.png)
 ![cr-vmware-small config continued](/images/sat48a.png)
 
-We will now define a host group within Satellite defines... ???
+We will now define a host group within Satellite as way to bring all these piecess together to provision a RHEL 8.3 VM on VMWare.
 
 On the side menu chose Configure -> Host Groups.  
 
