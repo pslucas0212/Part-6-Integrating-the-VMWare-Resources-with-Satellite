@@ -44,7 +44,7 @@ The next two screen shots show what your configuration should look like.  Click 
 
 We will now define a host group within Satellite defines... ???
 
-On the left navigation bar chose Configure -> Host Groups.  
+On the side menu chose Configure -> Host Groups.  
 
 ![Configure -> Host Groups](/images/sat56.png)
 
