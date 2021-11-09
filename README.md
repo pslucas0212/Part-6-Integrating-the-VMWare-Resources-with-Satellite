@@ -68,7 +68,7 @@ Compute Profile | cp-vmware-small
 
 Now click on the Network tab.  Fill in or selection the follow optons.  
 
-Networkt Tab:
+Network Tab:
 Name | Value
 ---- | -----
 Domain | example.com
@@ -92,7 +92,7 @@ Now click on the Activation Key tab.  Fill in ak-ops-rhel8--prem-server in the A
 
 ![Activation Key tab](/images/sat60.png)
 
-Once last option udpate and we are ready to test our deployment.  When I de-provision a VM running on vSphere from Satellite, I want the VM deleted.  To enable this capability Administer -> Settings from the navigation bar on the left.
+Once last option udpate and we are ready to test our deployment.  When I de-provision a VM running on vSphere from Satellite, I want the VM deleted.  To enable this capability Administer -> Settings from the side menu.
 
 ![Administer -> Settings](images/sat61.png)
 
