@@ -6,7 +6,7 @@
 ### Integrating the VMWare Resources with Satellite. 
 
 
-We are going pre-define hardware settings for a virtual machine in Satellite by creating a compute profile.  On the Satellite Console chose Infrastructure -> Compute Profiles.
+We are going to pre-define hardware settings for a virtual machine in Satellite by creating a compute profile.  On the Satellite Console chose Infrastructure -> Compute Profiles.
 
 ![Infrastructure -> Compute Profiles](/images/sat44.png)
 
@@ -22,7 +22,7 @@ On the Compute Profiles > cp-vmware-small page click the cr-vcenter link to defi
 
 ![Click cr-vcenter link](/images/sat47.png)
 
-We will now define the configuration of the RHEL VM that will be provisioned to VMWare from Satellite.  We will mostly accept default values.  Configuration changes are listed in the followng table.  
+We will now define the configuration of the RHEL VM that will be provisioned to VMWare from Satellite.  We will mostly accept default values.  Configuration changes are listed in the following table.  
 
 Name | Value
 ---- | -----
@@ -42,17 +42,17 @@ The next two screen shots show what your configuration should look like.  Click 
 ![cr-vmware-small config](/images/sat48.png)
 ![cr-vmware-small config continued](/images/sat48a.png)
 
-We will now define a host group within Satellite as way to bring all these piecess together to provision a RHEL 8.3 VM on VMWare.
+We will now define a host group within Satellite as a way to bring all these part together to provision a RHEL 8.3 VM on VMWare.
 
-On the side menu chose Configure -> Host Groups.  
+On the side menu choose Configure -> Host Groups.  
 
 ![Configure -> Host Groups](/images/sat56.png)
 
-On the Host Groups page make sure that you have Operations Department and moline selected for Organization and Location.  Click blue Create Host Group button.
+On the Host Groups page make sure that you have Operations Department and moline selected for Organization and Location.  Click the blue Create Host Group button.
 
 ![Clck the Create Host Group button](/images/sat57.png)
 
-On the Host Groups > Create Host Group page, we will start filling in or selectiong the options on the Host Group Tab
+On the Host Groups > Create Host Group page, we will start filling in or selecting the options on the Host Group Tab
 
 Host Group Tab:
 Name | Value
@@ -86,13 +86,13 @@ Operating System | RedHt 8.3
 
 ![Operating System Tab](/images/sat59.png)  
 
-Check the Locations and Organziations tab to make sure that moline is set for Locations and Operations Department is set for Organizations.
+Check the Locations and Organizations tab to make sure that moline is set for Locations and Operations Department is set for Organizations.
 
 Now click on the Activation Key tab.  Fill in ak-ops-rhel8--prem-server in the Activation Keys text field.   Click the blue Submit button.
 
 ![Activation Key tab](/images/sat60.png)
 
-Once last option udpate and we are ready to test our deployment.  When I de-provision a VM running on vSphere from Satellite, I want the VM deleted.  To enable this capability Administer -> Settings from the side menu.
+One last option to configure and we are ready to test our deployment.  When I de-provision a VM running on vSphere from Satellite, I want the VM deleted.  To enable this capability Administer -> Settings from the side menu.
 
 ![Administer -> Settings](images/sat61.png)
 
@@ -100,7 +100,7 @@ On the Settings page in the Filter/Search text field, enter "Destroy associated 
 
 ![Settings - Destroy associated VM on host delete - Yes](/images/sat62.png)  
 
-A dialog box will pop up with the title Update value for Destroy associated VM on host delete setting.  Click the drop down and chose Yes, and click the blue Submit button to accept the changed value.  The setting is now updated.
+A dialog box will pop up with the title Update value for Destroy associated VM on host delete setting.  Click the drop down and choose Yes, and click the blue Submit button to accept the changed value.  The setting is now updated.
 
 ![Dialog box - click Yes](/images/sat63.png)
 
